@@ -39,6 +39,12 @@ body{margin:0}
 .light .src{color:#CDBF98}
 .light .foot{color:#6E6556}
 .light .disc{color:#7A7262}
+.art{color:#CDBF98;opacity:.92;display:flex}
+.light .art{color:#9A7E4E}
+.art svg{width:100%;height:100%}
+.art-single{width:230px;height:230px;flex:0 1 230px;min-height:0;margin:30px 0 24px;align-self:flex-end}
+.art-single.left{align-self:flex-start}
+.art-cover{position:absolute;right:70px;bottom:150px;width:330px;height:330px;opacity:.85}
 ul.l{margin:0;padding-left:34px;display:flex;flex-direction:column;gap:14px;font-size:36px;line-height:1.4;color:#E4DFD3}
 """
 THEME='dark'
@@ -48,6 +54,10 @@ def page(inner, idx=None, total=None):
     return f'<div class="p">{inner}<div class="foot"><img src="{logo('logo-word')}" alt="Wellington Campos"><span>{right}</span></div></div>'
 def top(label): return f'<div class="top"><img src="{logo('logo-mark')}" alt=""><div class="lab">{label}</div></div>'
 e=html.escape
+def art(name, cls):
+    if not name: return ''
+    svg=open(f'{D}/ilustracoes/{name}.svg').read()
+    return f'<div class="art {cls}" aria-hidden="true">{svg}</div>'
 def single(s):
     stamp=''
     if s.get('stamp'):
@@ -57,10 +67,11 @@ def single(s):
     box=f'<div class="box"><h2>{e(s["boxTitle"])}</h2><p>{e(s["boxText"])}</p>'+(f'<div class="src">{e(s["source"])}</div>' if s.get('source') else '')+'</div>'
     big=' style="font-size:%dpx"'%s['size'] if s.get('size') else ''
     sub=f'<p class="sub">{e(s["sub"])}</p>' if s.get('sub') else ''
-    return [page(top(e(s['label']))+f'<div class="q"{big}>{e(s["statement"])}</div>'+sub+stamp+box)]
+    il=art(s.get('art'), 'art-single'+(' left' if s.get('stamp') else ''))
+    return [page(top(e(s['label']))+f'<div class="q"{big}>{e(s["statement"])}</div>'+sub+stamp+il+box)]
 def carousel(s):
     sl=s['slides']; n=len(sl)+2; out=[]
-    out.append(page(top(e(s['label']))+f'<div class="mid"><h1 class="t">{e(s["title"])}</h1><p class="sub">{e(s["subtitle"])}</p><div class="swipe">Arraste para o lado →</div></div>',1,n))
+    out.append(page(top(e(s['label']))+f'<div class="mid"><h1 class="t">{e(s["title"])}</h1><p class="sub">{e(s["subtitle"])}</p><div class="swipe">Arraste para o lado →</div></div>'+art(s.get('art'),'art-cover'),1,n))
     for i,x in enumerate(sl):
         out.append(page(top(e(s['label']))+f'<div class="mid"><div class="num">{i+1:02d}</div><h2 class="h">{e(x["h"])}</h2><p class="txt">{e(x["t"])}</p></div>',i+2,n))
     items=''.join(f'<li>{e(b)}</li>' for b in s['summary'])
