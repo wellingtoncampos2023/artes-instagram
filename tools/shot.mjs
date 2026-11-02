@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+import fs from 'fs';
+const [,, html, out] = process.argv;
+const exe = ['/opt/pw-browsers/chromium'].find(p => fs.existsSync(p));
+const b = await chromium.launch(exe ? { executablePath: exe } : {});
+const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
+await p.goto('file://' + html);
+await p.evaluate(() => document.fonts.ready);
+await p.waitForTimeout(300);
+await p.screenshot({ path: out, type: 'jpeg', quality: 92 });
+await b.close();
