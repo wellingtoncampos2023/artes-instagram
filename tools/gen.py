@@ -31,17 +31,28 @@ body{margin:0}
 .swipe{font-size:28px;font-weight:700;letter-spacing:.14em;color:#CDBF98;text-transform:uppercase}
 .mark{height:150px;align-self:flex-start}
 .disc{font-size:24px;color:#A9A08A;line-height:1.4}
+.light .p{background:radial-gradient(120% 90% at 20% 0%,#FBF8F2 0%,#F3EDE2 60%,#E9E1D2 100%);color:#1F2633}
+.light .p:before{border-color:rgba(140,117,80,.45)}
+.light .lab,.light .num,.light .swipe{color:#8C7550}
+.light .sub,.light .txt,.light ul.l{color:#3A4150}
+.light .box{background:#1F2633;color:#F3EDE2}
+.light .src{color:#CDBF98}
+.light .foot{color:#6E6556}
+.light .disc{color:#7A7262}
 ul.l{margin:0;padding-left:34px;display:flex;flex-direction:column;gap:14px;font-size:36px;line-height:1.4;color:#E4DFD3}
 """
+THEME='dark'
+def logo(name): return f"file://{D}/{name}{'-dark' if THEME=='light' else ''}.png"
 def page(inner, idx=None, total=None):
     right='@wellingtoncampos.advogado'+(f' · {idx}/{total}' if idx else '')
-    return f'<div class="p">{inner}<div class="foot"><img src="file://{D}/logo-word.png" alt="Wellington Campos"><span>{right}</span></div></div>'
-def top(label): return f'<div class="top"><img src="file://{D}/logo-mark.png" alt=""><div class="lab">{label}</div></div>'
+    return f'<div class="p">{inner}<div class="foot"><img src="{logo('logo-word')}" alt="Wellington Campos"><span>{right}</span></div></div>'
+def top(label): return f'<div class="top"><img src="{logo('logo-mark')}" alt=""><div class="lab">{label}</div></div>'
 e=html.escape
 def single(s):
     stamp=''
     if s.get('stamp'):
-        col='#F0705A' if s['stamp'].upper()=='MITO' else '#8FD3A6'
+        mito=s['stamp'].upper()=='MITO'
+        col=('#C9442B' if mito else '#2F7D52') if THEME=='light' else ('#F0705A' if mito else '#8FD3A6')
         stamp=f'<div class="stamp" style="color:{col};top:{s.get("stampTop",540)}px">{e(s["stamp"])}</div>'
     box=f'<div class="box"><h2>{e(s["boxTitle"])}</h2><p>{e(s["boxText"])}</p>'+(f'<div class="src">{e(s["source"])}</div>' if s.get('source') else '')+'</div>'
     big=' style="font-size:%dpx"'%s['size'] if s.get('size') else ''
@@ -56,7 +67,8 @@ def carousel(s):
     out.append(page(top('Resumo')+f'<div class="mid"><h2 class="h">{e(s["summaryTitle"])}</h2><ul class="l">{items}</ul><p class="disc">Conteúdo informativo, que não substitui a análise de um advogado sobre o seu caso.</p></div>',n,n))
     return out
 spec=json.load(open(sys.argv[1],encoding='utf-8')); outdir=sys.argv[2]; os.makedirs(outdir,exist_ok=True)
+THEME=spec.get('theme') or ('dark' if spec['kind']=='carousel' else 'light')
 pages=single(spec) if spec['kind']=='single' else carousel(spec)
 for i,p in enumerate(pages,1):
-    open(f'{outdir}/{spec["id"]}-{i}.html','w',encoding='utf-8').write(f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{p}</body></html>')
+    open(f'{outdir}/{spec["id"]}-{i}.html','w',encoding='utf-8').write(f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS}</style></head><body class="{THEME}">{p}</body></html>')
 print(len(pages))
