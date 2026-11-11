@@ -1,0 +1,38 @@
+{
+ "id": "2026-11-12-13h",
+ "kind": "carousel",
+ "label": "Usucapião",
+ "title": "Usucapião: conheça as principais modalidades",
+ "subtitle": "O tempo de posse exigido muda conforme o tipo de usucapião e a situação de quem ocupa o imóvel.",
+ "slides": [
+  {
+   "h": "Extraordinária",
+   "t": "Posse por 15 anos, sem interrupção nem oposição, mesmo sem título e boa-fé. O prazo cai para 10 anos se a pessoa mora no imóvel ou fez nele obras ou serviços produtivos (Código Civil, art. 1.238)."
+  },
+  {
+   "h": "Ordinária",
+   "t": "Posse por 10 anos, com justo título e boa-fé, como quem comprou de quem não podia vender. Pode cair para 5 anos em situações específicas previstas na lei (art. 1.242)."
+  },
+  {
+   "h": "Especial urbana",
+   "t": "Área urbana de até 250 m², usada como moradia por 5 anos, sem oposição, por quem não é dono de outro imóvel urbano ou rural (Constituição, art. 183; CC, art. 1.240)."
+  },
+  {
+   "h": "Especial rural",
+   "t": "Área rural de até 50 hectares, tornada produtiva pelo trabalho da pessoa ou da família, com moradia, por 5 anos, por quem não é dono de outro imóvel (Constituição, art. 191; CC, art. 1.239)."
+  },
+  {
+   "h": "Familiar",
+   "t": "Quem ficou no imóvel do casal, de até 250 m², após o ex-cônjuge ou ex-companheiro abandonar o lar, pode usucapir a parte dele depois de 2 anos de posse direta e exclusiva, usando-o como moradia (CC, art. 1.240-A)."
+  }
+ ],
+ "summaryTitle": "Em resumo",
+ "summary": [
+  "Toda usucapião exige posse contínua e sem oposição.",
+  "Os prazos variam de 2 a 15 anos, conforme a modalidade.",
+  "Imóveis públicos não podem ser adquiridos por usucapião.",
+  "O pedido pode ser feito na Justiça ou, cumpridos os requisitos, em cartório."
+ ],
+ "caption": "Usucapião: você conhece as principais modalidades? Arraste para ver.\n\nUsucapião é a forma de adquirir a propriedade pela posse prolongada do imóvel, cumprindo os requisitos da lei. Os principais tipos são:\n\n• Extraordinária: 15 anos, ou 10 anos se houver moradia ou obras produtivas (CC, art. 1.238).\n• Ordinária: 10 anos, com justo título e boa-fé (CC, art. 1.242).\n• Especial urbana: até 250 m², 5 anos de moradia (CF, art. 183; CC, art. 1.240).\n• Especial rural: até 50 hectares produtivos, 5 anos (CF, art. 191; CC, art. 1.239).\n• Familiar: 2 anos, após o abandono do lar pelo ex-cônjuge ou ex-companheiro (CC, art. 1.240-A).\n\nAtenção: imóveis públicos não são adquiridos por usucapião (CF, art. 183, § 3º, e art. 191, parágrafo único).\n\nImagem de capa gerada por inteligência artificial.\n\nConteúdo informativo. Cada caso tem suas particularidades.\n\n#usucapiao #direitoimobiliario #imoveis #regularizacaodeimoveis #posse #minasgerais",
+ "art": "casa"
+}
