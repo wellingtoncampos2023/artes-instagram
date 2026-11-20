@@ -1,0 +1,38 @@
+{
+ "id": "2026-11-21-13h",
+ "kind": "carousel",
+ "label": "Direito de Família",
+ "title": "Regimes de bens: as opções do Código Civil",
+ "subtitle": "Entenda como cada regime trata o patrimônio do casal e como se faz a escolha.",
+ "slides": [
+  {
+   "h": "Comunhão parcial",
+   "t": "É o regime que vale se não houver pacto antenupcial (art. 1.640). Em regra, passam a ser do casal os bens que vierem durante o casamento, com as exceções da lei (art. 1.658)."
+  },
+  {
+   "h": "Comunhão universal",
+   "t": "Em regra, se comunicam todos os bens presentes e futuros dos cônjuges e também as dívidas, com as exceções da lei (art. 1.667)."
+  },
+  {
+   "h": "Separação de bens",
+   "t": "Cada cônjuge mantém a administração exclusiva dos seus bens e pode vendê-los ou gravá-los livremente (art. 1.687)."
+  },
+  {
+   "h": "Participação final nos aquestos",
+   "t": "Cada um tem patrimônio próprio. No fim do casamento, cada um tem direito à metade dos bens adquiridos pelo casal a título oneroso (art. 1.672)."
+  },
+  {
+   "h": "Pacto e mudança de regime",
+   "t": "Escolher outro regime exige pacto antenupcial por escritura pública (arts. 1.640 e 1.653). Depois do casamento, a mudança depende de autorização judicial a pedido de ambos (art. 1.639, § 2º)."
+  }
+ ],
+ "summaryTitle": "Em resumo",
+ "summary": [
+  "Sem pacto, vale a comunhão parcial.",
+  "Outros regimes exigem escritura pública.",
+  "Cada regime trata o patrimônio de um jeito.",
+  "Mudar depois exige autorização judicial."
+ ],
+ "caption": "Regimes de bens: qual a diferença entre eles? Arraste para entender.\n\nO regime de bens define como fica o patrimônio do casal durante o casamento e no caso de divórcio. O Código Civil prevê:\n\n• Comunhão parcial: é o regime que vale quando não há pacto antenupcial (art. 1.640). Comunicam-se os bens que sobrevierem ao casal na constância do casamento, com as exceções legais (art. 1.658).\n• Comunhão universal: comunicam-se todos os bens presentes e futuros e as dívidas, com as exceções legais (art. 1.667).\n• Separação de bens: cada cônjuge administra os seus bens com exclusividade (art. 1.687).\n• Participação final nos aquestos: cada um tem patrimônio próprio e, na dissolução, há direito à metade dos bens adquiridos pelo casal a título oneroso durante o casamento (art. 1.672).\n\nO pacto antenupcial deve ser feito por escritura pública, sob pena de nulidade (art. 1.653). E a alteração do regime depois do casamento é possível mediante autorização judicial, em pedido motivado de ambos os cônjuges, ressalvados os direitos de terceiros (art. 1.639, § 2º).\n\nA lei também prevê situações específicas, como a separação obrigatória em alguns casos (art. 1.641).\n\nImagem de capa gerada por inteligência artificial.\n\nConteúdo informativo. Cada caso tem suas particularidades.\n\n#regimedebens #casamento #pactoantenupcial #direitodefamilia #divorcio #minasgerais",
+ "art": "familia"
+}
