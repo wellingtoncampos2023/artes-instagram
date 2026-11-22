@@ -1,0 +1,38 @@
+{
+ "id": "2026-11-23-13h",
+ "kind": "carousel",
+ "label": "Direito Imobiliário",
+ "title": "Posse x propriedade: qual é a diferença?",
+ "subtitle": "Morar no imóvel não é o mesmo que ser dono dele. Entenda o que o Código Civil diz sobre cada um.",
+ "slides": [
+  {
+   "h": "O que é posse",
+   "t": "É possuidor quem tem, de fato, o exercício de algum dos poderes de dono, como morar, usar ou cuidar do imóvel (Código Civil, art. 1.196)."
+  },
+  {
+   "h": "O que é propriedade",
+   "t": "O proprietário pode usar, gozar e dispor do bem, e tem o direito de reavê-lo de quem o possua ou detenha injustamente (art. 1.228)."
+  },
+  {
+   "h": "Quem é o dono, afinal",
+   "t": "Entre vivos, a propriedade do imóvel se transfere com o registro do título no Cartório de Registro de Imóveis. Sem o registro, o vendedor continua sendo considerado o dono (art. 1.245)."
+  },
+  {
+   "h": "A posse também é protegida",
+   "t": "O possuidor tem direito a ser mantido na posse em caso de turbação, restituído em caso de esbulho e protegido de violência iminente (art. 1.210)."
+  },
+  {
+   "h": "Quando a posse vira propriedade",
+   "t": "A usucapião permite que a posse prolongada, contínua e sem oposição, com intenção de dono, se transforme em propriedade, nos prazos e condições da lei (arts. 1.238 e seguintes)."
+  }
+ ],
+ "summaryTitle": "Em resumo",
+ "summary": [
+  "Posse é o exercício de fato; propriedade é o direito.",
+  "Dono do imóvel é quem consta no registro.",
+  "A posse também tem proteção na lei.",
+  "Com os requisitos legais, a posse pode virar propriedade."
+ ],
+ "caption": "Posse e propriedade são a mesma coisa? Arraste para ver.\n\nO Código Civil trata as duas de forma diferente:\n\n• Posse: é possuidor quem tem de fato o exercício de algum dos poderes inerentes à propriedade (art. 1.196).\n• Propriedade: o proprietário pode usar, gozar e dispor do bem, e reavê-lo de quem o possua injustamente (art. 1.228).\n• Registro: entre vivos, a propriedade do imóvel se transfere com o registro do título no Registro de Imóveis; enquanto isso não acontece, o vendedor continua sendo havido como dono (art. 1.245).\n• Proteção: o possuidor pode ser mantido na posse, restituído ou protegido contra ameaça (art. 1.210).\n• Usucapião: com os requisitos e prazos da lei, a posse pode se transformar em propriedade (arts. 1.238 e seguintes).\n\nImagem de capa gerada por inteligência artificial.\n\nConteúdo informativo. Cada caso tem suas particularidades.\n\n#posse #propriedade #usucapiao #direitoimobiliario #registrodeimoveis #minasgerais",
+ "art": "casa"
+}
