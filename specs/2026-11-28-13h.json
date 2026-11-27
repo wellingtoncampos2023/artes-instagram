@@ -1,0 +1,38 @@
+{
+ "id": "2026-11-28-13h",
+ "kind": "carousel",
+ "label": "Direito de Família",
+ "title": "Reconhecimento de paternidade: como funciona",
+ "subtitle": "Do registro em cartório à ação judicial: o que diz a lei sobre o reconhecimento dos filhos.",
+ "slides": [
+  {
+   "h": "Formas de reconhecer",
+   "t": "No registro de nascimento, por escritura pública ou escrito particular arquivado em cartório, por testamento ou perante o juiz. O reconhecimento é irrevogável (Código Civil, art. 1.609)."
+  },
+  {
+   "h": "Antes ou depois",
+   "t": "O reconhecimento pode ser feito antes do nascimento do filho ou depois do falecimento dele, se ele deixar descendentes (art. 1.609, parágrafo único)."
+  },
+  {
+   "h": "Registro só com a mãe",
+   "t": "Quando o registro traz apenas a maternidade, o cartório envia a certidão ao juiz, que pode ouvir a mãe e notificar o suposto pai para se manifestar (Lei 8.560/1992, art. 2º)."
+  },
+  {
+   "h": "Exame de DNA",
+   "t": "Na ação de investigação, a recusa do réu ao DNA gera presunção de paternidade, avaliada com as demais provas. Se o suposto pai faleceu, o exame pode ser feito em parentes (Lei 8.560/1992, art. 2º-A)."
+  },
+  {
+   "h": "E a pensão?",
+   "t": "Julgada procedente a investigação de paternidade, os alimentos são devidos a partir da citação (Súmula 277 do STJ)."
+  }
+ ],
+ "summaryTitle": "Em resumo",
+ "summary": [
+  "O reconhecimento pode ser feito em cartório ou na Justiça.",
+  "Uma vez feito, é irrevogável.",
+  "A recusa ao DNA gera presunção de paternidade.",
+  "A pensão retroage à citação."
+ ],
+ "caption": "Como funciona o reconhecimento de paternidade? Arraste para entender.\n\nO que diz a lei:\n\n• Formas: o reconhecimento dos filhos havidos fora do casamento é irrevogável e pode ser feito no registro do nascimento, por escritura pública ou escrito particular arquivado em cartório, por testamento ou por manifestação direta perante o juiz (Código Civil, art. 1.609).\n• Momento: pode preceder o nascimento do filho ou ser posterior ao seu falecimento, se ele deixar descendentes (art. 1.609, parágrafo único).\n• Registro só com a maternidade: o oficial do cartório remete a certidão ao juiz, que, sempre que possível, ouve a mãe sobre a paternidade alegada e notifica o suposto pai. Se ele confirmar, é lavrado o termo de reconhecimento (Lei 8.560/1992, art. 2º).\n• DNA: na ação de investigação, a recusa do réu em fazer o exame gera presunção de paternidade, a ser apreciada com as demais provas. Se o suposto pai houver falecido ou não houver notícia de seu paradeiro, o juiz pode determinar o exame em parentes consanguíneos (Lei 8.560/1992, art. 2º-A, §§ 1º e 2º).\n• Pensão: julgada procedente a investigação de paternidade, os alimentos são devidos a partir da citação (Súmula 277 do STJ).\n\nImagem de capa gerada por inteligência artificial.\n\nConteúdo informativo. Cada caso tem suas particularidades.\n\n#paternidade #reconhecimentodepaternidade #exameDNA #direitodefamilia #filhos #minasgerais",
+ "art": "familia"
+}
